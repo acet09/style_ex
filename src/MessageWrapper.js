@@ -5,6 +5,13 @@ import Message from './Message';
 const MessageStyle = styled.h1`
   font-size: 28px;
   color: red;
+
+  &:hover {
+    color:blue;
+  }
+  @media (max-width: 600px) {
+    background-color: orange;
+  }
 `;
 
 const MessageWrapper = () => {
