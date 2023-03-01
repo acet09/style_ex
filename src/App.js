@@ -1,10 +1,8 @@
-// import Hello from './Hello';
-import MessageWrapper from './MessageWrapper';
+import HelloJsx from './HelloJsx';
 
 function App() {
   return (
-    <MessageWrapper></MessageWrapper>
-    // <Hello></Hello>
+    <HelloJsx></HelloJsx>
   );
 }
 
