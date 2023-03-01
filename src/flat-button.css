@@ -1,0 +1,9 @@
+button {
+  font-size: 25px;
+  color: green;
+}
+
+button:hover{
+  cursor: pointer;
+  color:mediumseagreen;
+}

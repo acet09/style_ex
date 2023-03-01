@@ -1,9 +1,15 @@
-import HelloJsx from './HelloJsx';
+import React, { Component } from 'react';
+import './warn-button.css'
+import HelloPostcss from './HelloPostCSS';
 
-function App() {
-  return (
-    <HelloJsx></HelloJsx>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <HelloPostcss></HelloPostcss>
+      </div>
+    );
+  }
 }
 
 export default App;

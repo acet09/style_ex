@@ -1,0 +1,9 @@
+@import './flat-button.css';
+
+button {
+  border: 5px solid blue;
+}
+
+.msg {
+  color: red;
+}
